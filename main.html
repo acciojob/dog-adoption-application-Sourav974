@@ -1,44 +1,33 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
+    <form>
+        <label>Name </label>
+        <input id="name" type="text" placeholder="Name"/><br/>
 
-	<form>
-		<label>Name </label>
-		<input id="name" type="text" placeholder="Name"/><br/>
+        <label>Phone Number </label>
+        <input id="phone" type="text" placeholder="Phone Number"/><br/>
 
-		<label>Phone Number </label>
-		<input id="phone" type="text" placeholder="Phone Number"/><br/>
+        <label>Address </label>
+        <input id="address" type="text" placeholder="Address"/><br/>
 
-		<label>Address </label>
-		<input id="address" type="text" placeholder="Address"/><br/>
+        <label>
+            <input id="checkbox" type="checkbox"> Have you ever lived with a Dog before?
+        </label><br/>
 
-		<input id="checkbox" type="checkbox"> Have you ever lived with a Dog before?</input><br/>
+        <label>Please select your preferred breeds </label>
+        <select id="multiSelect">
+            <option value="labrador">Labrador</option>
+            <option value="boxer">Boxer</option>
+            <option value="pug">Pugs</option>
+        </select><br/>
 
-		<label>Please select your preferred breeds </label>
+        <button id="submit" type="submit">Submit</button>
+    </form>
 
-		<select id="multiSelect" type="select">
-		  <option value="labrador">Labrador</option>
-		  <option value="boxer">Boxer</option>
-		  <option value="pug">Pugs</option>
-		 
-		</select><br/>
-
-		<button id="submit" type="submit">Submit</button>
-				
-		
-	</form>
-
-	
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
